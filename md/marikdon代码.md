@@ -1,4 +1,3 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/weixin_45967200/article/details/106769367?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-106769367-blog-120772526.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-106769367-blog-120772526.pc_relevant_recovery_v2&utm_relevant_index=2)
 
 **Preface:**  
 Markdown 是一种轻量级标记语言，由 2004 年创建， markdown 编写的文档可导出为 HTML， Word， 图像，PDF，Epub 等多种格式的文档。  

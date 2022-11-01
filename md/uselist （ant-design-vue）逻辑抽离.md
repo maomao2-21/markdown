@@ -1,7 +1,7 @@
 ## 背景:
 在不影响业务代码的同时，抽离列表页的公用逻辑，实现封装hooks 让使用者更方便，代码统一
 ### 第一版的方案
-第一版的方案主要通过ueslist注入 自定义函数getlist,通过调用去控制表格的数据 返回table,search组件所需参数方法等。
+第一版的方案主要通过ueslist 通过调用传入的自定义函数getlist, 去控制表格的数据 返回table,search组件所需参数方法等。
 ```typescript 
 // 列表350ms不返回就出loading
 const aopFn = (loading: Ref<boolean>, getList: () => Promise<any>) => {
@@ -95,14 +95,13 @@ const { onSearch, handleTableChange, pagination, params, loading } = useList(get
 ### 
 
 ### update后
-这一次更新后支持功能多样 ，跨页多选，自定义调用list，直接调用列表接口，分页配置等
+这一次更新后支持功能多样 ，跨页多选，自定义调用list，可直接调用列表接口，分页配置等
 具体功能详见demo 主要满足了
-1
 
 
 * 1配置拓展性,大部分配置方法都再拓展
 * 2满足需求
-* 3实现后端接口type类型校验(1请求参数，2响应返回,3table Row的类型)
+* 3实现后端接口type类型校验(1请求参数,2响应返回,3table Row的类型)
 * 4不需要任何Type类型参数，可配合apx直接返回的类型校验
 ```typescript
 
