@@ -83,12 +83,12 @@ const { onSearch, handleTableChange, pagination, params, loading } = useList(get
 <SCustomFilter :loading="loading" :formOptions="formOptions" :onSearch="onSearch" />
 
 <a-table
-    :dataSource="dataSource"
-    :columns="tableColumns"
-    :pagination="pagination"
-    :loading="loading"
-    :scroll="{ x: 600 }"
-    @change="handleTableChange"
+  :dataSource="dataSource"
+  :columns="tableColumns"
+  :pagination="pagination"
+  :loading="loading"
+  :scroll="{ x: 600 }"
+  @change="handleTableChange"
 />
 ```
 
